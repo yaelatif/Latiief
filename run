@@ -1,0 +1,94 @@
+#!/usr/bin/bash
+#//Hanya tool gabungan. Niat untuk Memudahkan Saja//
+#//Script Kiddies//
+kiddies='\e[1;31m'
+kiddes='\e[1;33m'
+clear
+echo ""
+figlet "INSTAGRAM TOOLS" | lolcat
+echo -e $kiddes "#####################"
+echo "  # TOOL   GABUNGAN BANG CCOCOT# " | lolcat
+echo "  # PENYUSUN JOMBLO TERSAKITI  # " | lolcat
+echo -e $kiddes "#####################"
+echo -e $kiddies"============================================================" 
+echo " [1] FFT AUTO"  | lolcat
+echo " [2] FAH AUTO" | lolcat
+echo " [3] FLA AUTO" | lolcat
+echo " [4] FLM AUTO" | lolcat
+echo " [5] BOT LIKE V1" | lolcat
+echo " [6] BOT LIKE V2" | lolcat
+echo " [7] UNFOLLOW NOT FOLLOWBACK" | lolcat
+echo " [8] UNFOLLOW ALL" | lolcat
+echo " [9] DELETE ALL POST" | lolcat
+echo " [10] CEK ID LOCATION" | lolcat
+echo " [0] MEMILIH UNTUK KELUAR SAJA" | lolcat
+echo -e $kiddies"============================================================"
+read -p " [Pilih No]> " File;
+
+if [ $File = 1 ] || [ $File = 01 ]
+then
+echo "============================================================"
+node fftauto.js;
+fi
+
+if [ $File = 2 ] || [ $File = 02 ]
+then
+echo "============================================================"
+node FAH.js;
+fi
+
+if [ $File = 3 ] || [ $File = 03 ]
+then
+echo "============================================================"
+node FLAauto.js;
+fi
+
+if [ $File = 4 ] || [ $File = 04 ]
+then
+echo "============================================================"
+node flmauto.js;
+fi
+
+if [ $File = 5 ] || [ $File = 05 ]
+then
+echo "============================================================"
+node botlike.js;
+fi
+
+if [ $File = 6 ] || [ $File = 06 ]
+then
+echo "============================================================"
+node botlike2.js;
+fi
+
+if [ $File = 7 ] || [ $File = 07 ]
+then
+echo "============================================================"
+node unfollnotfollowback.js;
+fi
+
+if [ $File = 8 ] || [ $File = 08 ]
+then
+echo "============================================================"
+node unfollall.js;
+fi
+
+if [ $File = 9 ] || [ $File = 09 ]
+then
+echo "============================================================"
+node deleteallphoto.js;
+fi
+
+if [ $File = 10 ] || [ $File = 010 ]
+then
+echo "============================================================"
+php loc.php;
+fi
+
+if [ $File = 0 ] || [ $File = 00 ]
+then
+echo "============================================================"
+echo "©SGB TEAM #54N63X"
+sleep 3
+fi
+              

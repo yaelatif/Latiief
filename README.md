@@ -11,6 +11,6 @@ How to Run on Termux
 * bash run
 
 
-Thank's To: Ccocot & Dandy & Jrxuii & Auliaahmad16
+Thank's To: Ccocot & Dandy & Jrxuii & Auliaahmad16 & Huttarichard
 
 # Follow https://www.instagram.com/mazfikri001

@@ -7,8 +7,9 @@ clear
 echo ""
 figlet "INSTAGRAM TOOLS" | lolcat
 echo -e $kiddes "#####################"
-echo "  # TOOL   GABUNGAN BANG CCOCOT# " | lolcat
+echo "  # TOOL   GABUNGAN IG# " | lolcat
 echo "  # PENYUSUN JOMBLO TERSAKITI  # " | lolcat
+echo "  # YAELATIF. | THANKS TO SGB TEAM  # " | lolcat
 echo -e $kiddes "#####################"
 echo -e $kiddies"============================================================" 
 echo " [1] FFT AUTO"  | lolcat
